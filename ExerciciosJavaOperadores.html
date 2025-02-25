@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Exercícios JavaScript</title>
+
+    <script src="ExerciciosJavaOperadores.js"></script>
+</head>
+
+<body>
+    <section>
+
+        <img src="/img/senai-logo.png" alt="">
+
+        <h1>Exercícios de JavaScript: Operadores</h1>
+
+        <div class="nivel">
+            <h2>Nível Iniciante</h2>
+            <ul>
+                <li><h3>SOMA: <button onclick="mostrarResultado()">Mostrar resultado</button></h3></li>
+                <li><h3>SUBTRAÇÃO: <button onclick="mostrarSubtracao()">Mostrar resultado</button></h3></li>
+                <li><h3>MULTIPLICAÇÃO: <button onclick="mostrarMultiplicacao()">Mostrar resultado</button></h3></li>
+                <li><h3>DIVISÃO: <button onclick="mostrarDivisao()">Mostrar resultado</button></h3></li>
+                <li><h3>PAR OU ÍMPAR: <button onclick="mostrarParImpar()">Mostrar resultado</button></h3></li>
+                <li><h3>INCREMENTO: <button onclick="mostrarIncremento()">Mostrar resultado</button></h3></li>
+                <li><h3>DECREMENTO: <button onclick="mostrarDecremento()">Mostrar resultado</button></h3></li>
+                <li><h3>IGUALDADE: <button onclick="mostrarResultadoComparacao()">Mostrar resultado</button></h3></li>
+                <li><h3>DESIGUALDADE: <button onclick="mostrarResultadoComparacaoS()">Mostrar resultado</button></h3></li>
+                <li><h3>MAIOR QUE: <button onclick="mostrarResultadoComparacaoM()">Mostrar resultado</button></h3></li>
+                <li><h3>MENOR QUE: <button onclick="mostrarResultadoComparacaoMQ()">Mostrar resultado</button></h3></li>
+                <li><h3>MAIOR OU IGUAL A: <button onclick="mostrarResultadoAprovacao()">Mostrar resultado</button></h3></li>
+                <li><h3>MENOR OU IGUAL A: <button onclick="mostrarResultadoEstoque()">Mostrar resultado</button></h3></li>
+                <li><h3>AND LÓGICO: <button onclick="mostrarResultadoVoto()">Mostrar resultado</button></h3></li>
+                <li><h3>OR LÓGICO: <button onclick="mostrarResultadoBolsa()">Mostrar resultado</button></h3></li>
+            </ul>
+        </div>
+
+        <div class="nivel">
+            <h2>Nível Intermediário</h2>
+            <ul>
+                <li><h3>CALCULANDO MÉDIA: <button onclick="mostrarResultadoAprovacao2()">Mostrar resultado</button></h3></li>
+                <li><h3>CONVERSÃO DE TEMPERATURA: <button onclick="mostrarTemperaturaFahrenheit()">Mostrar resultado</button></h3></li>
+                <li><h3>DESCONTO CONDICIONAL: <button onclick="mostrarValorFinalCompra()">Mostrar resultado</button></h3></li>
+                <li><h3>VERIFICAÇÃO DE MÚLTIPLOS: <button onclick="mostrarResultadoMultiplo()">Mostrar resultado</button></h3></li>
+                <li><h3>INTERVALO NUMÉRICO: <button onclick="mostrarResultadoIntervalo()">Mostrar resultado</button></h3></li>
+                <li><h3>ANO BISSEXTO: <button onclick="mostrarResultadoBissexto()">Mostrar resultado</button></h3></li>
+                <li>
+                    <div class="calculadora">
+                        <h3>CALCULADORA SIMPLES</h3>
+                        <label for="numero1">Primeiro número:</label>
+                        <input type="number" id="numero1" placeholder="Primeiro número">
+                        <select id="operador">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value="/">/</option>
+                        </select>
+                        <label for="numero2">Segundo número:</label>
+                        <input type="number" id="numero2" placeholder="Segundo número">
+                        <button onclick="calcular()">Calcular</button>
+                        <div id="resultado"></div>
+                    </div>
+                </li>
+                <li><h3>VALIDAÇÃO DE SENHA: <button onclick="mostrarResultadoSenha()">Mostrar resultado</button></h3></li>
+                <li><h3>TRIÂNGULO: <button onclick="mostrarTipoTriangulo()">Mostrar resultado</button></h3></li>
+                <li><h3>IMC: <button onclick="mostrarClassificacaoIMC()">Mostrar resultado</button></h3></li>
+            </ul>
+        </div>
+
+        <div class="nivel">
+            <h2>Nível Avançado</h2>
+            <ul>
+                <li><h3>ORDENAÇÃO: <button onclick="mostrarNumerosOrdenados()">Mostrar resultado</button></h3></li>
+                <li><h3>EQUAÇÃO DO SEGUNDO GRAU: <button onclick="mostrarRaizes()">Mostrar resultado</button></h3></li>
+                <li><h3>JOGO DE ADIVINHAÇÃO: <button onclick="adivinharNumero()">Mostrar resultado</button></h3></li>
+                <li><h3>CONVERSÃO DE BASES: <button onclick="converterBase()">Mostrar resultado</button></h3></li>
+                <li><h3>CALCULADORA DE JUROS COMPOSTO: <button onclick="calcularJurosCompostos()">Mostrar resultado</button></h3></li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
